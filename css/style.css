@@ -1,0 +1,14 @@
+body
+{
+	margin: auto;
+	padding-top: 2%;
+	background-color: #b3b3b3;
+}
+table, #search
+{
+	width: 100%;
+}
+footer
+{
+	background-color: #eee;
+}
