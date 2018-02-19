@@ -1,0 +1,13 @@
+{
+    "name": "bellaali/html-livesearch",
+    "description": "It's a plugin allows to dress and search data on HTML page at realtime built using the library jquery",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Achraf Bellaali",
+            "email": "achraf.bellaali@gmail.com"
+        }
+    ],
+    "require": {}
+}
