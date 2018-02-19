@@ -1,4 +1,4 @@
-# Welcome to LiveSearch [![Packagist](https://img.shields.io/badge/version-2.0.1-green.svg) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+# Welcome to LiveSearch ![version2](https://img.shields.io/badge/version-2.0.1-green.svg) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 
 You can use this project to draw a table of data and to search values at realtime, just by following these few steps
 
