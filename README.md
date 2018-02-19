@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
+# Welcome to LiveSearch [![Packagist](https://img.shields.io/badge/version-2.0.1-green.svg) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 
-You can use the [editor on GitHub](https://github.com/IndianGhost/liveSearch/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use this project to draw a table of data and to search values at realtime, just by following these few steps
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Install
+## Git
+```
+git clone https://github.com/IndianGhost/liveSearch.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## composer
+```
+composer create-project indianghost/live-search YourProjectName
+```
+Or (in case of stability issues)
+```
+composer create-project indianghost/live-search=dev-master YourProjectName
+```
 
-### Jekyll Themes
+# Inteded users
+Generally here are two users for this project (I guess so), if you are one of them don't hesitate to use it:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IndianGhost/liveSearch/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 1. In case you have one (or many in the same page) existing HTML table displays data (from a database or whatever):
+You have an existing HTML table contains a **lot of rows** (for example: You display _data_ from _database_ into an HTML table), you want to add a functionality that allows you to find values of some row without scrolling page and wasting your time.
+This project can save you bro !
+# Follow these steps
+1. clone it from **github** or download it via **composer** as mentionned above
 
-### Support or Contact
+2. include jquery on your webpage:
+  - _via CDN_
+  copy & paste this line on your head block:
+  `<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>`
+  
+  OR
+  
+  - _local file_
+  You downloaded the project ! well, now copy the file [**js/jquery.min.js**](https://github.com/IndianGhost/liveSearch/blob/master/js/jquery.min.js) and paste it in your js directory. Then, add the tag script to your head block.
+  `<script type="text/javascript" src="LinkToYourDirectory/jquery.min.js"></script>`
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+3. add a new input tag, it will be your **search box**. it should have the `id="js-search"`, for example I used this tag :
+  `<input type="text" class="form-control" style="width: 20%" id="js-search" placeholder="Taper pour chercher…">`
+  :pushpin:**Remember the required attribute is id="js-search"**
+  
+4. add an attribute `class="js-table"` to your table(s).
+    When you type something in the search box the result will appear simultaneously on your table(s).
+    :pushpin:_Notice:_ if your table has not the tag `<tbody>` you must add it `<table><tbody>Searched Data HERE</tbody></table>`.
+
+5. Finally, You must copy the file [**js/search.js**](https://github.com/IndianGhost/liveSearch/blob/master/js/search.js) and add the script tag at the bottom of page (:pushpin:just before `</body>` for performance reasons). It should be similar to this tag :
+`<script type="text/javascript" src="LinkToYourDirectory/search.js"></script>`
+
+That's all for your case, enjoy !
+
+## 2. In case you have data already formatted using **JSON**:
+In this case your task will be a piece of cake all you have to do is:
+
+1. rename your json file to _data.json_
+
+2. clone or download the project (step 1 above)
+
+3. replace the file [**js/data.json**](https://github.com/IndianGhost/liveSearch/blob/master/js/data.json) by your _data.json_ !
+
+That's all for your case, enjoy !
+
+# Copyright and license
+copyright 2018 Achraf BELLAALI is a free open-source project.
+
+# Support My development
+If you found it helpful, you can support me to develop new projects By :
+- Buying a gig from my fiverr account :
+[**achrafbellaali**](https://www.fiverr.com/achrafbellaali)
+
+- if you are an Arab developer, here's my account on Khamsat:
+[**أشرف بلعلي**](https://khamsat.com/user/أشرف-بلعلي)
+
+- You can also donate on Paypal:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/achrafbellaali)
