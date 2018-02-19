@@ -9,5 +9,6 @@
             "email": "achraf.bellaali@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
