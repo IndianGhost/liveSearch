@@ -61,6 +61,15 @@ In this case your task will be a piece of cake all you have to do is:
 
 That's all for your case, enjoy !
 
+# Demonstration
+![alt text](https://github.com/IndianGhost/liveSearch/blob/master/screenshots/1.PNG)
+
+![alt text](https://github.com/IndianGhost/liveSearch/blob/master/screenshots/2.PNG)
+
+![alt text](https://github.com/IndianGhost/liveSearch/blob/master/screenshots/3.PNG)
+
+![alt text](https://github.com/IndianGhost/liveSearch/blob/master/screenshots/4.PNG)
+
 # Copyright and license
 Copyright 2018 Achraf BELLAALI is a free open-source project. The code is released under [The MIT LICENSE](https://github.com/IndianGhost/liveSearch/blob/master/LICENSE) you can do whatever you want with it !
 
