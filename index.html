@@ -17,32 +17,7 @@
 		}
 	</style>
     <script src="js/jquery.min.js"></script>
-    <script type="text/javascript">
-		$(document).ready(function(){
-			$.getJSON("js/data.json", function(results){
-				var thead = "";
-				var tbody = "";
-				var keyNames = Object.keys(results[0]);
-				for (var i = 0; i < keyNames.length; i++) {
-					thead += "<th>"+keyNames[i]+"</th>";
-					console.log(results[0][keyNames[i]]);
-				}
-				
-				for(var j=0; j<results.length; j++)
-				{
-					tbody += "<tr>";
-					for(var i=0; i<keyNames.length; i++)
-					{
-						tbody += "<td>"+results[j][keyNames[i]]+"</td>";
-					}
-					tbody += "</tr>";
-				}
-					
-				$("thead").append("<tr>"+thead+"</tr>");
-				$("tbody").append(tbody);
-			});
-		});
-    </script>
+    <script type="text/javascript" src="js/draw_table.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -57,7 +32,7 @@
         </div>
         <center>
             <div class="form-group">
-                <input type="text" class="form-control" style="width: 20%" id="search" placeholder="Taper pour chercher…">
+                <input type="text" class="form-control" style="width: 20%" id="js-search" placeholder="Taper pour chercher…">
             </div>
         </center>
 		
@@ -66,16 +41,6 @@
 			<tbody></tbody>
 		</table>
 	</div>
-	<script type="text/javascript">
-		$("#search").keyup(function(){
-	        _this = this;
-	        $.each($(".js-table tbody tr"), function() {
-	            if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
-	                $(this).hide();
-	            else
-	                $(this).show();
-	        });
-	    });
-	</script>
+	<script type="text/javascript" src="js/search.js"></script>
 </body>
 </html>
