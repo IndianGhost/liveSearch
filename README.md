@@ -71,7 +71,7 @@ That's all for your case, enjoy !
 ![alt text](https://github.com/IndianGhost/liveSearch/blob/master/screenshots/4.PNG)
 
 # Copyright and license
-Copyright 2018 Achraf BELLAALI is a free open-source project. The code is released under [The MIT LICENSE](https://github.com/IndianGhost/liveSearch/blob/master/LICENSE) you can do whatever you want with it !
+Copyright 2018 Achraf BELLAALI **Live Search** is a free open-source project. The code is released under [The MIT LICENSE](https://github.com/IndianGhost/liveSearch/blob/master/LICENSE) you can do whatever you want with it !
 
 # Support My development
 If you found it helpful, you can support me to develop new projects By :
