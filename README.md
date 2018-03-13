@@ -75,11 +75,4 @@ Copyright 2018 Achraf BELLAALI **Live Search** is a free open-source project. Th
 
 # Support My development
 If you found it helpful, you can support me to develop new projects By :
-- Buying a gig from my fiverr account :
-[**achrafbellaali**](https://www.fiverr.com/achrafbellaali)
-
-- if you are an Arab developer, here's my account on Khamsat:
-[**أشرف بلعلي**](https://khamsat.com/user/أشرف-بلعلي)
-
-- You can also donate on Paypal:
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/achrafbellaali)
