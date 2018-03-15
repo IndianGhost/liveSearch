@@ -62,6 +62,11 @@ In this case your task will be a piece of cake all you have to do is:
 That's all for your case, enjoy !
 
 # Demonstration
+
+Demonstration edited by jqueryscripts.net
+I'm thankful to its team because they paid attention to this modest work, By the way this is the first version: 
+https://www.jqueryscript.net/demo/Table-Live-Search-Plugin-jQuery/
+
 ![alt text](https://github.com/IndianGhost/liveSearch/blob/master/screenshots/1.PNG)
 
 ![alt text](https://github.com/IndianGhost/liveSearch/blob/master/screenshots/2.PNG)
