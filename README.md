@@ -17,14 +17,14 @@ Or (in case of stability issues)
 composer create-project indianghost/live-search=dev-master YourProjectName
 ```
 
-# Inteded users
+# Intended users
 Generally here are two users for this project (I guess so), if you are one of them don't hesitate to use it:
 
 ## 1. In case you have one (or many in the same page) existing HTML table displays data (from a database or whatever):
 You have an existing HTML table contains a **lot of rows** (for example: You display _data_ from _database_ into an HTML table), you want to add a functionality that allows you to find values of some row without scrolling page and wasting your time.
 This project can save you bro !
 # Follow these steps
-1. clone it from **github** or download it via **composer** as mentionned above
+1. clone it from **github** or download it via **composer** as mentioned above
 
 2. include jquery on your webpage:
   - _via CDN_
